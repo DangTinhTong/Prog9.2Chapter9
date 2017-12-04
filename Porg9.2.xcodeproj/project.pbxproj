@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		84E5F69C1FD51F59002386BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F69B1FD51F59002386BC /* main.m */; };
+		84E5F6A41FD5213A002386BC /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F6A31FD5213A002386BC /* Fraction.m */; };
+		84E5F6A71FD53396002386BC /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F6A61FD53396002386BC /* Complex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		84E5F6981FD51F59002386BC /* Porg9.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Porg9.2; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E5F69B1FD51F59002386BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E5F6A21FD5213A002386BC /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		84E5F6A31FD5213A002386BC /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		84E5F6A51FD53396002386BC /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		84E5F6A61FD53396002386BC /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				84E5F69B1FD51F59002386BC /* main.m */,
+				84E5F6A21FD5213A002386BC /* Fraction.h */,
+				84E5F6A31FD5213A002386BC /* Fraction.m */,
+				84E5F6A51FD53396002386BC /* Complex.h */,
+				84E5F6A61FD53396002386BC /* Complex.m */,
 			);
 			path = Porg9.2;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E5F69C1FD51F59002386BC /* main.m in Sources */,
+				84E5F6A71FD53396002386BC /* Complex.m in Sources */,
+				84E5F6A41FD5213A002386BC /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
